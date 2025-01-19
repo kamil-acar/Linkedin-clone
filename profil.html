@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Ara">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="images/home.png" alt=""><span>Ana Sayfa</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/network.png" alt=""><span>Benim Ağım</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/jobs.png" alt=""><span>İş ilanları</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/message.png" alt=""><span>Mesajlar</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/notification.png" alt=""><span>Bildirimler</span></a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <a href="profil.html"><img src="images/user-1.png" class="nav-profile-img" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <style>
+        .profil-page {
+            width: 95%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 30fr 1fr 10fr;
+        }
+
+        #acarSoft {
+            width: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #connact {
+            display: flex;
+            align-items: center;
+            margin: 12px 0 0px 0;
+        }
+
+        .sidebar-profil-info-top {
+            color: #000;
+        }
+
+        .sidebar-profil-info-bottom p {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgba(7, 7, 7, .7);
+        }
+
+        .sidebar-profil-info-bottom p:first-child {
+            margin-top: 10px;
+        }
+
+
+        .connact-button {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 280px;
+            padding-bottom: 15px;
+        }
+
+        .connact-button a {
+            margin-top: 15px;
+        }
+
+        .connact-button a button {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            outline: none;
+            border: none;
+            padding: 3px 10px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 50px;
+
+
+        }
+
+        .connact-button a button {
+            height: 50px;
+            width: 120px;
+        }
+
+        .connact-button a:first-child button {
+            background-color: #377cec;
+            color: #fff;
+        }
+
+        .connact-button img {
+            margin: 0;
+            padding: 0;
+            width: 22px;
+            background-color: transparent;
+            margin: 5px;
+        }
+
+        .about {
+            width: 86%;
+            padding: 20px 0 20px 0;
+        }
+
+        .about h1 {
+            margin: 5px 0 15px 0;
+        }
+
+        .about p {
+            font-size: 18px;
+            font-weight: 540;
+            margin-bottom: 15px;
+            color: #000;
+        }
+    </style>
+
+    <div class="profil-page">
+        <div class="sidebar-profile-box" id="profil-page">
+            <img src="images/cover-pic.png" alt="" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="images/user-1.png" alt="">
+                <div class="sidebar-profil-info-left">
+                    <div class="sidebar-profil-info-top">
+                        <h1>Kamil Acar</h1>
+                    </div>
+                    <div class="sidebar-profil-info-bottom">
+                        <p>Mimcode'da Web Geliştiricisi | Sakarya Üniversitesinde Okuyor</p>
+                        <p>Uşak, Türkiye. <span>İletişim Bilgileri</span></p>
+                        <p id="connact"><img src="./images/AcarSoft.2 (2).png" id="acarSoft">1 Ortak bağlantı: AcarSoft
+                        </p>
+                    </div>
+                    <div class="connact-button">
+                        <a href="#"><button><img src="./images/connect.png" alt="">
+                                <p>Bağlan</p>
+                            </button></a>
+                        <a href="#"><button><img src="./images/message.png" alt="">
+                                <p>mesaj</p>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bolum"></div>
+            <div class="sidebar-profile-info">
+                <div class="about">
+                    <h1>Hakkında</h1>
+                    <p>👋 Selam! Ben Kamil, React Front-End Developer olarak kodları sanata dönüştürmeye ve benzersiz
+                        kullanıcı deneyimleri inşa etmeye odaklanan bir yazılımcıyım.
+                        🚀 Bilgisayar mühendisliği alanındaki eğitimimle donanmış bir şekilde, Mimcode Şirketi'nde elde
+                        ettiğim deneyimlerle hem teknik hem de yaratıcı yönlerimi geliştirdim.
+                    </p>
+                    <p>
+                        🗣️ İletişim becerilerimle sıcak bir ekip ortamı yaratma konusundaki yeteneğim, projelerdeki
+                        etkileşimleri ve işbirliğini güçlendirmeme yardımcı oluyor. Sorunları çözmek, benim için bir
+                        macera;
+                        bu süreçte yaratıcılığımı kullanarak her zorluğun üstesinden gelmeyi amaçlıyorum.
+                    </p>
+                    <p>
+                        🧠💻 Öğrenmeye açık ve teknolojiyi doğru kullanan bir yaklaşım benim için önemli.
+                        Her gün yeni şeyler öğrenmek ve bu bilgiyi projelerime entegre etmek, beni daha iyi bir
+                        geliştirici
+                        yapmada kilit bir rol oynuyor.
+                    </p>
+                    <p>
+                        💡 Teknolojideki yenilikleri takip etmek, benim için sadece bir görev değil, aynı zamanda bir
+                        tutku.
+                        Bu tutkuyla, her proje için en güncel ve etkili çözümleri sunma amacı taşıyorum.
+                        Sizlerle işbirliği yapmak ve birlikte yeni projelerde iz bırakmak için sabırsızlanıyorum. Haydi,
+                        birlikte kod dünyasına renk katmaya başlayalım! ✨
+                    </p>
+                </div>
+            </div>
+            <div class="bolum"></div>
+
+            <div class="sidebar-profile-info">
+                <div class="experience">
+                    <h1>Deneyim</h1>
+                    <div class="experience-box-top">
+                        <div class="experience-top">
+                            <img src="./images/mimcode.jpg">
+                            <div class="">
+                                <h3>Web Designer</h3>
+                                <small style="display: block;">AcarSoft - Tam Zamanlı</small>
+                                <small>Eylül 2023 - Şu Anda 6 Ay</small>
+                            </div>
+
+                        </div>
+                        <div class="experience-box">
+
+                            <div class="experience-bottom">
+                                <p>
+                                    React Front-End Developer, web uygulamalarının arayüz tasarımını oluşturan,
+                                    modüler bileşenleri entegre eden ve kullanıcı deneyimini geliştiren bir uzmandır.
+                                    Aynı zamanda React'in sunduğu teknolojileri kullanarak performansı optimize eder.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-box-top">
+                        <div class="experience-top">
+                            <img src="./images/AcarSoft.2 (2).png">
+                            <div class="">
+                                <h3>Web Designer</h3>
+                                <small style="display: block;">AcarSoft - Tam Zamanlı</small>
+                                <small>Eylül 2023 - Şu Anda 6 Ay</small>
+                            </div>
+
+                        </div>
+                        <div class="experience-box">
+
+                            <div class="experience-bottom">
+                                <p>
+                                    React Front-End Developer, web uygulamalarının arayüz tasarımını oluşturan,
+                                    modüler bileşenleri entegre eden ve kullanıcı deneyimini geliştiren bir uzmandır.
+                                    Aynı zamanda React'in sunduğu teknolojileri kullanarak performansı optimize eder.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-box-top">
+                        <div class="experience-top">
+                            <img src="./images/AcarSoft.2 (2).png">
+                            <div class="">
+                                <h3>Web Designer</h3>
+                                <small style="display: block;">AcarSoft - Tam Zamanlı</small>
+                                <small>Eylül 2023 - Şu Anda 6 Ay</small>
+                            </div>
+
+                        </div>
+
+                        <div class="experience-box">
+
+                            <div class="experience-bottom" id="experience-bottom">
+                                <p>
+                                    Web designer, web sitelerinin görsel tasarımını oluşturan ve kullanıcı arayüzünü
+                                    geliştiren profesyoneldir.
+                                    Estetik unsurları kullanarak kullanıcı dostu ve çekici web deneyimleri tasarlar.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bolum"></div>
+
+            <div class="sidebar-profile-info">
+                <div class="experience">
+                    <h1>Eğitim ve Sertifika</h1>
+                    <div class="experience-box-top education">
+                        <div class="experience-top education-bottom">
+                            <img src="./images/sau-logo-dikey.jpg">
+                            <div class="">
+                                <h3>Sakarya University</h3>
+                                <small style="display: block;">Computer Programer</small>
+                                <small>2023 - 2025</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-box-top education">
+                        <div class="experience-top education-bottom">
+                            <img src="./images/ibm-2.png">
+                            <div class="">
+                                <h3>International Business Machines</h3>
+                                <small style="display: block;">Getting Started with Front-End and Web
+                                    Development</small>
+                                <small>2023</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-box-top">
+                        <div class="experience-top education-bottom">
+                            <img src="./images/btk.png">
+                            <div class="">
+                                <h3>BTK Akademi</h3>
+                                <small style="display: block;">
+                                    Javascript Temelleri</small>
+                                <small>2023</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bolum"></div>
+            <div class="sidebar-profile-info">
+                <div class="skills">
+                    <div class="skills-top">
+                        <h1>Beceriler</h1>
+                    </div>
+                    <div class="skills-bottom">
+                        <a>Web Development</a>
+                        <a>Web Designer</a>
+                        <a>Frontend Developer</a>
+                        <a>React.js</a>
+                        <a>Javascript</a>
+                        <a>Boostrap</a>
+                        <a href="">Ekip çalışması</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="bolum"></div>
+
+            <div class="sidebar-profile-info">
+                <div class="language">
+                    <h1>Diller</h1>
+                </div>
+                <div class="language-bottom">
+                    <a href="">İngilizce</a>
+                    <a href="">Türkçe</a>
+                </div>
+            </div>
+            <div class="bolum"></div>
+            <div class="sidebar-profile-info" id="footer">
+                
+                    <a>Hakkında</a>
+                    <a>Erişilebilirlik</a>
+                    <a>Yardım Merkezi</a>
+                    <a>Gizlilik Politikası</a>
+                    <a>Reklam</a>
+                    <a>Uygulamayı Edinin</a>
+                    <a>Daha fazla</a>
+                
+            </div>
+        </div>
+
+
+        <div class=""></div>
+
+
+
+
+
+        <div class="right-content">
+
+            <div class="mi-ads">
+                <p>
+                    Web tasarım 5 ikesini öğren
+                </p>
+                <div class="photo">
+                    <img src="images/user-1.png">
+                    <img src="./images/mi-logo.png" alt="">
+                </div>
+                <p>Xiaomi'de Marka ve Talep</p>
+
+                <a href="">Daha Fazla Bilgi Edinin</a>
+
+            </div>
+
+            <div class="person">
+                <h3>Tanıdığınız Kişiler</h3>
+                <div class="persons">
+                    <img src="./images/user-2.png" alt="">
+                    <div class="persons-title">
+                        <h4>Samuel Tony</h4>
+                        <small>Alibaba'da Pazarlama Müdürü</small>            
+                    </div>   
+                </div>
+                <button href="" >Bağlan</button>
+                <div class="persons">
+                    <img src="./images/user-3.png" alt="">
+                    <div class="persons-title">
+                        <h4>Benjamin Leo</h4>
+                        <small>Alibaba'da Pazarlama Müdürü</small>            
+                    </div>   
+                </div>
+                <button href="" >Bağlan</button>
+                <div class="persons">
+                    <img src="./images/user-4.png" alt="">
+                    <div class="persons-title">
+                        <h4>Steave Greg</h4>
+                        <small>Alibaba'da Pazarlama Müdürü</small>            
+                    </div>   
+                </div>
+                <button href="" >Bağlan</button>
+                <div class="persons">
+                    <img src="./images/user-6.png" alt="">
+                    <div class="persons-title">
+                        <h4>Martin Lewis</h4>
+                        <small>Alibaba'da Pazarlama Müdürü</small>            
+                    </div>   
+                </div>
+                <button href="" >Bağlan</button>
+                <div class="persons">
+                    <img src="./images/user-5.png" alt="">
+                    <div class="persons-title">
+                        <h4>Clarence George</h4>
+                        <small>Alibaba'da Pazarlama Müdürü</small>            
+                    </div>   
+                </div>
+                <button href="" >Bağlan</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
